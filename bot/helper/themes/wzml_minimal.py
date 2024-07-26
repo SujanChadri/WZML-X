@@ -5,7 +5,7 @@ class WZMLStyle:
     ST_BN1_NAME = 'Repo'
     ST_BN1_URL = 'https://www.github.com/weebzone/WZML-X'
     ST_BN2_NAME = 'Updates'
-    ST_BN2_URL = 'https://t.me/WZML_X'
+    ST_BN2_URL = 'https://t.me/Sujan_BotZ'
     ST_MSG = '''<i>This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram or to ddl servers.</i>
 <b>Type {help_command} to get a list of available commands</b>'''
     ST_BOTPM = '''<i>Now, This bot will send all your files and links here. Start Using ...</i>'''
@@ -173,10 +173,10 @@ class WZMLStyle:
 
     # def get_readable_message(): ---> bot_utilis.py
     ####--------OVERALL MSG HEADER----------
-    STATUS_NAME =       '<b><i>{Name}</i></b>'
+    STATUS_NAME =       '<code>{Name}</code>'
 
     #####---------PROGRESSIVE STATUS-------
-    BAR =               '\n┃ {Bar}'
+    BAR =               '\n\n┃ {Bar}'
     PROCESSED =         '\n┠ <b>Processed:</b> {Processed}'
     STATUS =            '\n┠ <b>Status:</b> <a href="{Url}">{Status}</a>'
     ETA =                                                ' | <b>ETA:</b> {Eta}'
